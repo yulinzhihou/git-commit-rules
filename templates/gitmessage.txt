@@ -1,0 +1,13 @@
+# <emoji> <type>(<scope>): <subject>
+#
+# 各字段说明：
+#   emoji     —— gitmoji，如 ✨ 🐛 📝
+#   type      —— feat / fix / docs / style / refactor / perf / test / build / chore
+#   scope     —— 可选，影响模块
+#   subject   —— 一行简述（≤50 字符，祈使语气）
+#
+# 示例：
+#   ✨ feat(auth): 新增登录页
+#   🐛 fix(cart): 修复购物车数量显示错误
+#
+# 详见仓库根目录 COMMIT_RULES.md

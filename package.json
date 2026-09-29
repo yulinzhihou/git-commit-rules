@@ -1,0 +1,39 @@
+{
+  "name": "git-commit-rules",
+  "version": "0.1.0",
+  "description": "一键为 Git 仓库配置「中文 + emoji（gitmoji + conventional commits）」commit 规则，并支持自动 commit + push，供 AI 与开发者本地调用。",
+  "keywords": [
+    "git",
+    "commit",
+    "gitmoji",
+    "conventional-commits",
+    "commitlint",
+    "cli",
+    "automation"
+  ],
+  "license": "MIT",
+  "bin": {
+    "gcr": "bin/gcr.js",
+    "git-commit-rules": "bin/gcr.js"
+  },
+  "main": "src/index.js",
+  "files": [
+    "bin/",
+    "src/",
+    "templates/",
+    "skill/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Doubao Skill Developer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/git-commit-rules.git"
+  }
+}
