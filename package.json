@@ -1,7 +1,7 @@
 {
   "name": "git-commit-rules",
   "version": "0.1.0",
-  "description": "一键为 Git 仓库配置「中文 + emoji（gitmoji + conventional commits）」commit 规则，并支持自动 commit + push，供 AI 与开发者本地调用。",
+  "description": "一键为 Git 仓库配置「中文 + emoji（gitmoji + conventional commits）」commit 规则，支持自动 commit + push，并提供 MCP server 供豆包/GPT/Claude/Gemini 等 AI 标准接入调用。",
   "keywords": [
     "git",
     "commit",
@@ -9,12 +9,16 @@
     "conventional-commits",
     "commitlint",
     "cli",
-    "automation"
+    "automation",
+    "mcp",
+    "ai",
+    "agent"
   ],
   "license": "MIT",
   "bin": {
     "gcr": "bin/gcr.js",
-    "git-commit-rules": "bin/gcr.js"
+    "git-commit-rules": "bin/gcr.js",
+    "gcr-mcp": "src/mcp-server.js"
   },
   "main": "src/index.js",
   "files": [
@@ -35,5 +39,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/your-username/git-commit-rules.git"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.31.0",
+    "zod": "^4.6.5"
   }
 }
