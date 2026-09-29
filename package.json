@@ -40,7 +40,7 @@
   "author": "Doubao Skill Developer",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/git-commit-rules.git"
+    "url": "https://github.com/yulinzhihou/git-commit-rules.git"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.31.0",
