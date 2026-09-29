@@ -26,6 +26,8 @@
     "src/",
     "templates/",
     "skill/",
+    "AGENTS.md",
+    "AI-INTEGRATION.md",
     "README.md",
     "LICENSE"
   ],
